@@ -17,6 +17,26 @@
         </article>     
         <article class="split right">
             <form>
+                <div class="row">
+                    <input type="text" name="contact_name" id="contact_name"/>
+                    <label for="contact_name">Contact Name</label>
+                </div>
+
+                <div class="row">
+                    <input type="text" name="company_name" id="company_name"/>
+                    <label for="company_name">Company Name</label>
+                </div>
+
+                <div class="row">
+                    <input type="email" name="email" id="email"/>
+                    <label for="email">Email</label>
+                </div>
+
+                <div class="row">
+                    <input type="text" name="number" id="number"/>
+                    <label for="number">Phone Number</label>
+                </div>
+
                 <h1>Please select the cleaning service(s) needed:</h1>
                 <div class="inputGroup">
                     <input id="mominc" name="mominc" type="checkbox" onclick="findTotal()"/>
@@ -52,8 +72,9 @@
                 </h1>
                 
                 <br>
-                <hr>                       
-                </form>
+                <hr>  
+                <button type="sumbit">SUMBIT</button>                   
+            </form>
         </article>
     </body>
 </html>
