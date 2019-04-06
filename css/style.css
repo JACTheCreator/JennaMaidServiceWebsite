@@ -7,7 +7,7 @@ body, html {
 }
 
 .hero-image {
-    background-image: linear-gradient(to top, rgb(1,6,13,0.5), rgb(20,24,28,0.5), rgb(33,37,42,0.5), rgb(46,51,57,0.5), rgb(60,65,72,0.5)), url('../images/background.jpg');
+    background-image: linear-gradient(to right top, rgb(241,163,8, 0.5), rgb(246,179,0, 0.5), rgb(251,195,0, 0.5), rgb(254,212,0, 0.5), rgb(255,229,0, 0.5)), url('../images/background.jpg');
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -62,7 +62,8 @@ form {
     height: 10px;
     border-radius: 50%;
     content: '';
-    background-color: #414141fb;
+    /*background-color: rgb(241,163,8,0.7);*/
+    background-image: linear-gradient(to right top, rgb(241,163,8, 0.7), rgb(246,179,0, 0.7), rgb(251,195,0, 0.7), rgb(254,212,0, 0.7), rgb(255,229,0, 0.7));
     position: absolute;
     left: 50%;
     top: 50%;
@@ -76,7 +77,7 @@ form {
     width: 32px;
     height: 32px;
     content: '';
-    border: 2px solid #d1d7dc;
+    border: 2px solid rgb(241,163,8);
     background-color: #fff;
     background-image: url("data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5.414 11L4 12.414l5.414 5.414L20.828 6.414 19.414 5l-10 10z' fill='%23fff' fill-rule='nonzero'/%3E%3C/svg%3E ");
     background-repeat: no-repeat;
@@ -92,7 +93,7 @@ form {
 }
 
 .inputGroup input:checked ~ label {
-    color: rgb(241, 241, 241);
+    color: rgb(47, 66, 142);
 }
 
 .inputGroup input:checked ~ label:before {
@@ -102,7 +103,6 @@ form {
 
 .inputGroup input:checked ~ label:after {
     background-color: #54e0c7;
-    border-color: #54e0c7;
 }
 
 .inputGroup input {
