@@ -8,10 +8,22 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
-        <script type="text/javascript" src="js/index.js"></script>  
     </head>
 
     <body class="hero-image">   
+
+        <div id="reportModal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <h1>Generated ProForma Request</h1>
+            <h2 id="genContactName"></h2>
+            <h2 id="genCompanyName"></h2>
+            <h2 id="genEmail"></h2>
+            <h2 id="genNumber"></h2>
+            <h2 id="genTotal"></h2>
+          </div>
+        </div>
+
         <article class="split left">
             <h1 class="hero-text">JENNA MAID SERVICES</h1>
         </article>     
@@ -65,7 +77,6 @@
                 <br>
                 <hr>
                 <br>
-                
                                 
                 <h1>
                     Total:  <span id="total"> $0.00</span>
@@ -73,8 +84,9 @@
                 
                 <br>
                 <hr>  
-                <button type="sumbit">SUMBIT</button>                   
+                <button type="button" id="sumbit">SUMBIT</button>                   
             </form>
         </article>
+        <script type="text/javascript" src="js/index.js"></script>  
     </body>
 </html>
